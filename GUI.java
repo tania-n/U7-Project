@@ -14,9 +14,9 @@ public class GUI{
         b1.setBounds(50,50,150,35);
         JButton b2=new JButton("Order by Year");  //Creates a Button
         b2.setBounds(50,100,200,35); 
-        JButton b3=new JButton("Order by Winning team");  //Creates a Button
+        JButton b3=new JButton("Order by Winning Team");  //Creates a Button
         b3.setBounds(50,150,200,35); 
-        JButton b4=new JButton("Order by point Spread");  //Creates a Button
+        JButton b4=new JButton("Order by Point Spread");  //Creates a Button
         b4.setBounds(50,200,200,35); 
 
             //The blocks of code below this tells the program what to do when the button is clicked.
