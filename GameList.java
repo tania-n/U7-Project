@@ -58,7 +58,7 @@ public class GameList{
         for(Game game : superBowls){ 
             // if the winningTeam in the game matches the teamName 
             // count increases by 1
-            if(game.getWinningTeam().equals(teamName)){
+            if(game.getWinningTeam().toLowerCase().equals(teamName.toLowerCase())){
                 count++;
             }
         }
